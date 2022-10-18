@@ -9,4 +9,6 @@ export interface ICar {
   id: string;
   parkedAt: number;
   leavingAt: number;
+  impounded?: boolean;
+  parkingFee?: number;
 }
